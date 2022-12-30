@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:83A2761B-9D75-4067-8000-91378F9A78C1</id>
+ <title>Page list Atom feed</title>
+ <updated>2010-11-03T12:50:24-03:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:6D173F64-60DF-4C2A-B706-A791408A6F9E</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">6D173F64-60DF-4C2A-B706-A791408A6F9E</in-navbar>
+  <link rel="alternate" href="Home.html"/>
+  <updated>2010-11-03T12:50:24.001-03:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:8F93EE72-BC90-4932-A143-3263EEA30DA0</id>
+  <title>Bases</title>
+  <title xmlns="urn:iweb:">Bases</title>
+  <in-navbar xmlns="urn:iweb:">8F93EE72-BC90-4932-A143-3263EEA30DA0</in-navbar>
+  <link rel="alternate" href="ListarBasesServlet"/>
+  <updated>2010-11-03T12:50:24.002-03:00</updated>
+  <content>Bases</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:6E59D949-4EC2-46A0-85DB-E6C6F0BCF37B</id>
+  <title>Adicionar Base</title>
+  <title xmlns="urn:iweb:">Adicionar Base</title>
+  <in-navbar xmlns="urn:iweb:">6E59D949-4EC2-46A0-85DB-E6C6F0BCF37B</in-navbar>
+  <link rel="alternate" href="addBase.jsp"/>
+  <updated>2010-11-03T12:50:24.003-03:00</updated>
+  <content>Adicionar Base</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B4FF39DC-C7BE-40D7-B721-FB51AAE0F693</id>
+  <title>Reconhecimento</title>
+  <title xmlns="urn:iweb:">Reconhecimento</title>
+  <in-navbar xmlns="urn:iweb:">B4FF39DC-C7BE-40D7-B721-FB51AAE0F693</in-navbar>
+  <link rel="alternate" href="Reconhecimento.jsp"/>
+  <updated>2010-11-03T12:50:24.004-03:00</updated>
+  <content>Reconhecimento</content>
+ </entry>
+</feed>

@@ -1,0 +1,54 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="imgamo" class="br.gov.rn.emater.getImagemAction">
+            <result name="success">ResultadoServlet</result>
+            <result name="input">ResultadoServlet</result>
+        </action>
+        <action name="userImage" class="br.gov.rn.emater.FileUploadAction">
+            <interceptor-ref name="fileUpload">
+                <param name="maximumSize">2097152</param>
+
+                <param name="allowedTypes">
+              
+                </param>
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success">ListarBasesServlet</result>
+
+            <result name="input">addBase.jsp</result>
+        </action>
+
+        <action name="ListarBasesServlet">
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success">ListarBasesServlet</result>
+        </action>
+
+        <action name="ResultadoServlet">
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success">ResultadoServlet</result>
+        </action>
+
+        <action name="addBase">
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success">addBase.jsp</result>
+        </action>
+
+        <action name="userRec" class="br.gov.rn.emater.FileUploadRecAction">
+            <interceptor-ref name="fileUpload">
+                <param name="maximumSize">2097152</param>
+
+                <param name="allowedTypes">
+              image/png,image/gif,image/jpeg,image/jpg,image/pjpeg
+                </param>
+            </interceptor-ref>
+            <interceptor-ref name="defaultStack"></interceptor-ref>
+            <result name="success">ResultadoServlet</result>
+
+            <result name="input">Reconhecimento.jsp</result>
+        </action>
+    </package>
+</struts>
